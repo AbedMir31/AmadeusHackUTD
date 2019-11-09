@@ -1,6 +1,7 @@
-from amadeus import Client, ResponseError
-import credentials
+from amadeus import Client
 
+import tkgui
+import credentials
 print(credentials.clientID)
 
 amadeus = Client(
