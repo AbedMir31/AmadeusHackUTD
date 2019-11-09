@@ -1,7 +1,10 @@
 from amadeus import Client, ResponseError
+import credentials
+
+print(credentials.clientID)
 
 amadeus = Client(
-    client_id='udoe8mUFqN8m5pIur8gQSoa4nvbLhZYP',
-    client_secret='6rU9YdprVsk2DvQx'
+    client_id=credentials.clientID,
+    client_secret=credentials.clientSecret
 )
 
